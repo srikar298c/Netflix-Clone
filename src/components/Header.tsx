@@ -18,8 +18,8 @@ function Header() {
         }
     }, [])
     return (
-        <header className={"`${isScrolled && 'bg-[#141414]'}`"}>
-            <div className={"flex items-center space-x-2 md:space-x-10"}>
+        <header className={"`${isScrolled && 'bg-[#141414] '}`"}>
+            <div className={"flex items-center space-x-2 md:space-x-10 py-3"}>
                 <img
                     src="https://rb.gy/ulxxee"
                     width={100}
